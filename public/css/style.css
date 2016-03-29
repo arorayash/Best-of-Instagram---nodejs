@@ -1,0 +1,25 @@
+.title_cont{
+  padding: 20px;
+}
+
+#nav_title{
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  background: #1a1a1a;
+  border-radius: 25px;
+  color: #fff;
+}
+
+#nav_title:hover{
+  background: #fff;
+  color: #1a1a1a;
+}
+
+
+#main{
+  padding-top: 50px;
+}
+
+footer{
+  padding: 50px;
+}
