@@ -1,5 +1,5 @@
 .title_cont{
-  padding: 20px;
+  padding: 50px 0 30px 0;
 }
 
 #nav_title{
@@ -8,6 +8,7 @@
   background: #1a1a1a;
   border-radius: 25px;
   color: #fff;
+  transition: all 0.2s ease-in;
 }
 
 #nav_title:hover{
@@ -20,6 +21,47 @@
   padding-top: 100px;
 }
 
+.instagram-pic{
+  position: relative;
+  padding: 10px;
+  overflow: hidden;
+}
+
+img:hover{
+  opacity: 0.6;
+  background: #000;
+}
+
+.instagram-bar{
+  position: absolute;;
+  bottom: 30px;
+  width: 100%;
+  color: #000;
+}
+
+.instagram-bar span{
+  margin-right: 5px;
+}
+
+.instagram-bar .likes{
+  position: absolute;
+  left: 15px;
+}
+
+.instagram-bar .comments{
+  position: absolute;;
+  right: 30px;
+}
+
 footer{
   padding: 50px;
+}
+
+::selection{
+  background: #1a1a1a;
+  color: #fff;
+}
+::-moz-selection {
+  background: #1a1a1a;
+  color: #fff;
 }
